@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9803d36-f59f-44e4-95cd-f67f33d120b6" name="Changes" comment="" />
+    <list default="true" id="f9803d36-f59f-44e4-95cd-f67f33d120b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/taobangnangcao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taobang.css" beforeDir="false" afterPath="$PROJECT_DIR$/taobang.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1762607522428</updated>
-      <workItem from="1762607523485" duration="1410000" />
+      <workItem from="1762607523485" duration="3444000" />
     </task>
     <servers />
   </component>
