@@ -1,10 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>formkhachhang</title>
 </head>
+<title>formkhachhang</title>
 <body>
-$END$
+<hr>
+<h2>Khảo sát nghiên cứu thị trường</h2>
+    <p>Vui lòng dành chút thời gian để hoàn thành khảo sát mức độ hài lòng này.</p>
+<hr>
+    <h4>Độ tuổi của bạn là bao nhiêu?</h4>
+<!-- select mở option chọn -->
+<select name="Độ Tuổi">
+
+    <option value="18-23"> 18-23</option>
+    <option value="23-30"> 18-23</option>
+    <option value="30-40"> 30-40</option>
+    <option value="40-45"> 40-45</option>
+    <option value="45-60"> 45-60</option>
+
+</select>
+
+    <h4>Thu nhập hàng năm của bạn là bao nhiêu?</h4>
+
+<select name="Độ Tuổi">
+
+    <option value="Luongthang"> 50.000.000-70.000.000/năm</option>
+    <option value="Luongthang"> 70.000.000-90.000.000/năm</option>
+    <option value="Luongthang"> 90.000.000-120.000.000/năm</option>
+    <option value="Luongthang"> 120.000.000-150.000.000/năm</option>
+
+</select>
+
+    <h4>Giới tính của bạn </h4>
+
+<!-- <label><input                            type="radio"/> để chọn 1 mục tiêu trong ô-->
+
+    <label><input name="hobby" value="travel" type="radio"/> Nam</label>
+<br>
+    <label><input name="hobby" value="travel" type="radio"/> Nữ</label>
+<br>
+    <label><input name="hobby" value="travel" type="radio"/> Phi giới tính<label>
+<br>
+    <label><input name="hobby" value="travel" type="radio"/> Khác</label>
+<br>
+        <h4>Bạn đã mua sản phẩm nào sau đây trong 2 tháng qua? Vui lòng chọn tất cả các mục phù hợp.</h4>
+
+        <!-- <label><input                       type="checkbox"/> để cho nhiều mục tiêu trong ô-->
+
+    <label><input name="hobby" value="travel" type="checkbox"/> Khoai</label>
+<br>
+    <label><input name="hobby" value="travel" type="checkbox"/> Ngô</label>
+<br>
+    <label><input name="hobby" value="travel" type="checkbox"/> Sắn</label>
+<br>
+    <label><input name="hobby" value="travel" type="checkbox"/> Khác</label>
+<br>
+        <h4>Bạn sẽ sử dụng sản phẩm mới của chúng tôi thường xuyên như thế nào?</h4>
+
+     <label><input name="hobby" value="travel" type="radio"/> Hàng ngày</label>
+<br>
+     <label><input name="hobby" value="travel" type="radio"/> Hang tuần</label>
+<br>
+     <label><input name="hobby" value="travel" type="radio"/> Hàng tháng</label>
+<br><br>
+     <label><input name="hobby" value="travel" type="radio"/> Khác</label>
+<br>
+     <h4>Bạn sẽ trả bao nhiêu cho sản phẩm mới?</h4>
+     VND
+     <input type="text" name="vd" placeholder="Vd 100.000Vnd"/>
+     <input type="submit"/>
+<br>
+     <h4>Bạn muốn thấy những tính năng nào ở sản phẩm mới hãy cho chúng tôi biết?</h4>
+<form method="POST">
+            <textarea cols="50" rows="4"></textarea>
+</form>
+     <h4>Đánh giá mức độ hài lòng</h4>
+     <label><input name="hobby" value="travel" type="radio"/>Trung bình</label>
+ <br>
+     <label><input name="hobby" value="travel" type="radio"/>Tốt</label>
 </body>
 </html>
